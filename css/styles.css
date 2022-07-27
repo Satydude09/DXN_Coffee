@@ -1,0 +1,181 @@
+body{
+  margin:0;
+  font-family: "montserret-black" "sans-serif";
+  text-align: center;
+  color: #F3E9DD;
+}
+.big-heading{
+  width: 55%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin:5% auto 5% 22%;
+}
+.container-fluid{
+  margin: 0;
+  background-color: #1C0A00;
+}
+/* navbar */
+.navbar{
+  margin: 0;
+  height:100%;
+  width: 100%;
+  background-color: #1C0A00;
+}
+.navbar-brand{
+  padding:0 5%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #F3E9DD;
+}
+.nav-item{
+  margin-right: 30px;
+}
+.nav-link{
+    font-weight:bold;
+}
+.background-img{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/coffee.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-button{
+   margin: 0 1.5% 4%;
+   padding:1.2% 3%;
+}
+#benifits{
+  background-color: #1C0A00;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5%;
+}
+.img-1{
+  width:50%;
+}
+.img-2{
+  width:65%;
+}
+.benifits-row{
+ width: 99%;
+  padding: 5% 8% 3% 8%;
+  line-height: 1.5;
+}
+.benifits-para{
+  width: 70%;
+  margin-left: 18%;
+  margin-top: 5%;
+  text-align: left;
+}
+#about{
+  background-color: #361500;
+  padding-top: 2%;
+}
+.carousel-item{
+  padding: 2% 20%;
+}
+.about-img{
+  width:100%;
+  border-radius: 20px;
+}
+.carousel-item p{
+  color:#362222;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 90%;
+  text-align: left;
+  padding-left: 30%;
+}
+.carousel-item h5{
+  color:#362222;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 90%;
+  text-align: left;
+  padding-left: 30%;
+}
+#contact{
+  background-color:  #361500;
+  padding: 5%;
+  text-align: left;
+}
+.contact-img{
+  width: 100%;
+  border-radius: 20px;
+}
+#contact h1{
+  padding-bottom: 20%;
+}
+.welcome-note{
+  padding: 3% 15%;
+  background-color: #1C0A00;
+}
+.Visit-note{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/pexels2.jpg');
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+
+}
+.visit-heading{
+  text-align: center;
+  padding-left: 20%;
+  padding-top: 8%;
+}
+.Visit-note h2{
+  line-height: 2;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFF80A;
+}
+.Visit-note h3{
+  line-height: 2;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFF80A;
+}
+.bton{
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #FFF80A;
+  font-size: 2rem;
+  font-weight: bold;
+  color:  #876445;
+  border-style: none;
+}
+.bton:hover{
+  background-color: #F2DF3A;
+}
+.bton:active{
+    background-color: #FFF80A;
+}
+@media(max-width:990px) {
+  .big-heading{
+    width:70%;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin:5% auto 5% 15%;
+  }
+  .img-1{
+    width:70%;
+  }
+  .img-2{
+    width:85%;
+  }
+  #contact{
+    text-align: center;
+  }
+  .contact-img{
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .carousel-item{
+    padding: 2% 13%;
+  }
+}
